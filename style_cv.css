@@ -1,43 +1,48 @@
 body
 {
-	background-color: rgb(255,228,196)
-	font-family: "comic sans mc";
+	background-color: rgb(204,204,255);
+
 }
 h3
 {
 	color: rgb(212,115,212);
+	font-size: 23px;
 }
 .cv
 {
 	display: flex;
-	border: 2px solid red;
+	justify-content: space-around;
+	
 }
-.gauche
+.cv h3
 {
-	border: 1px solid blue;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 }
+
 .présentation h1
 {
 	color: rgb(219,0,115);
+	font-size: 35px;
 }
-
+.présentation
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 .diplôme
 {
 	color: rgb(196,105,143);
+	font-size: 18px;
 }
 
-.droite
-{
-	border: 1px solid green;
-	display: inline-block;
-	vertical-align: top;
-	justify-content: flex-end;
-	align-items: flex-start;
-}
-.accroche h3
+
+.présentation h3
 {
 	color: rgb(128,0,128);
+	font-size: 25px;
+	font-style: italic;
 }
 .expérience span
 {
