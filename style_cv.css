@@ -12,7 +12,6 @@ h3
 {
 	display: flex;
 	justify-content: space-around;
-	
 }
 .cv h3
 {
@@ -53,4 +52,14 @@ h3
 {
 	font-weight: bold;
 	color: rgb(199,44,72);
+}
+.droite
+{
+	display: flex;
+	flex-direction: column;
+}
+.centre_interet
+{
+	display: flex;
+	justify-content: center;
 }
