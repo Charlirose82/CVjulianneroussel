@@ -1,0 +1,51 @@
+body
+{
+	background-color: rgb(255,228,196)
+	font-family: "comic sans mc";
+}
+h3
+{
+	color: rgb(212,115,212);
+}
+.cv
+{
+	display: flex;
+	border: 2px solid red;
+}
+.gauche
+{
+	border: 1px solid blue;
+	display: inline-block;
+}
+.présentation h1
+{
+	color: rgb(219,0,115);
+}
+
+.diplôme
+{
+	color: rgb(196,105,143);
+}
+
+.droite
+{
+	border: 1px solid green;
+	display: inline-block;
+	vertical-align: top;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.accroche h3
+{
+	color: rgb(128,0,128);
+}
+.expérience span
+{
+	font-weight: bold;
+	color: rgb(199,44,72);
+}
+.formation span
+{
+	font-weight: bold;
+	color: rgb(199,44,72);
+}
