@@ -5,7 +5,7 @@ body
 }
 h3
 {
-	color: rgb(212,115,212);
+	color: rgb(121,28,248);
 	font-size: 23px;
 }
 .cv
@@ -19,31 +19,31 @@ h3
 	justify-content: center;
 }
 
-.présentation h1
+.presentation h1
 {
 	color: rgb(219,0,115);
 	font-size: 35px;
 }
-.présentation
+.presentation
 {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.diplôme
+.diplome
 {
-	color: rgb(196,105,143);
+	color: rgb(75,0,130);
 	font-size: 18px;
 }
 
 
-.présentation h3
+.presentation h3
 {
-	color: rgb(128,0,128);
+	color: rgb(38,97,156);
 	font-size: 25px;
 	font-style: italic;
 }
-.expérience span
+.experience span
 {
 	font-weight: bold;
 	color: rgb(199,44,72);
@@ -58,8 +58,18 @@ h3
 	display: flex;
 	flex-direction: column;
 }
-.centre_interet
+.coordonnees
 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
+}
+.telephone
+{
+	color: rgb(33,23,125);
+	font-weight: 700;
+}
+.adresse
+{
+	color: rgb(33,23,125);
+	font-weight: 700;
 }
